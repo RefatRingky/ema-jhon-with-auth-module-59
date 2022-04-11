@@ -12,6 +12,9 @@
     color: coral;
     font-weight: 400px;
 }
+.input-group{
+    margin-bottom: 20px;
+}
 .input-group label{
   display: block;
 }
@@ -23,4 +26,22 @@
    box-sizing: border-box;
    border-radius: 5px;
    border: 1px solid gray;
+}
+.form-submit{
+    width: 415px;
+    height: 55px;
+    background-color:rgb(218, 108, 65) ;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.form-submit:hover{
+    background-color:rgba(192, 82, 42, 0.568) ; 
+}
+.form-link{
+    color: coral;
+    text-decoration: none;  
+}
+.link-position{
+    text-align: center;
 }
